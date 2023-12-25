@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Offline link of Bootstarp (Css) -->
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <!-- Online link of Bootstarp (Css) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <section style="background-color: white;">
+    <header class="container">
+        <nav  class="navbar navbar-expand-lg bg-body-tertiary">
+            <div style="background-color: white;" class="container">
+                <a class="navbar-brand" href="#">
+                    <img class="twinkle" src="twinkle.png">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active pop" aria-current="page" href="login-2.html">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active pop" aria-current="page" href="#">My Class</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link active pop" aria-current="page" href="#Backpack">
+                                Become a teacher
+                            </a>
+                            <ul>
+
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active pop" aria-current="page" href="#">Conatact</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+</section>
+
+
+<!-- SLIDER -->
+
+
+    <section class="slider container">
+
+        <div id="carouselExampleAutoplaying" class="carousel slide " data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row d-flex align-items-center p-5">
+                        <div class="col-md-7">
+                            <h1> <span>Complete</span><br>Python Developer in 2023</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur!</p>
+                            <h2></h2>
+                            <button class="btn"><strong>Enroll now !!</strong></button>
+                        </div>
+                        <div class="col-md-5">
+                            <img src="python.png" class="d-block w-100">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row d-flex align-items-center p-5">
+                        <div class="col-md-7">
+                            <h1><span>React</span> <br> The Complete Guide</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur!</p>
+                            <h2></h2>
+                            <button class="btn"><strong>Enroll now !!</strong></button>
+                        </div>
+
+                        <div class="col-md-5">
+                            <img src="react.png" class="d-block w-100 react">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row d-flex align-items-center p-5">
+                        <div class="col-md-7">
+                            <h1><span>JavaScript</span> <br> Beginner to Advance</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur!</p>
+                            <h2></h2>
+                            <button class="btn "><strong>Eroll now !!</strong></button>
+                        </div>
+                        <div class="col-md-5">
+                            <img src="JavaScript-logo.png" class="d-block w-100">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+    </section>
+
+
+<!-- SLIDER END -->
+
+
+
+
+
+<!-- Catagories -->
+
+    <section class="container overflow-hidden text-center mt-5 catagories">
+        <h1 style="color:#285a84;" class="text-start"><strong>Categories</strong></h1>
+        <div class="row g-3">
+            <div class="col up">
+            <a style="text-decoration: none;" href="#Academic">  <div class=" p-3 rounded-3 bg-primary d-flex align-items-center justify-content-around">
+                    <h1 class="text-white">Academic</h1>
+                </div> </a>  
+            </div>
+
+
+            <div class="col up">
+          <a style="text-decoration: none;" href="#Design">     <div class="p-3 rounded-3 bg-success d-flex align-items-center justify-content-around">
+                    <h1 class="text-white">Design</h1>
+                </div> </a> 
+            </div>
+
+
+            <div class="col up">
+             <a style="text-decoration: none;" href="#Dev">  <div class="p-3 rounded-3 bg-danger d-flex align-items-center justify-content-around">
+                    <h1 class="text-white">Development</h1>
+                </div> </a> 
+            </div>
+        </div>
+    </section>
+
+
+
+
+<!-- Academic section -->
+
+
+    <section id="Academic" class="container mt-5">
+        <h2 style="font-size: 40px;"> <strong>Academic</strong></h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4 ">
+            <div class="col">
+                <div class="card h-100 panda-card-main shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+                    <img src="1.jpg" class="card-img-top aca">
+                    <div class="card-body">
+                        <h5 class="card-title">Admission_D Unit</h5>
+                        <h5>$ 490</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, aliquid
+                            culpa impedit porro magnam accusantium maxime nostrum?</p>
+                    </div>
+                    <div class="card-footer panda-card">
+                        <button class="btn"><strong>Add to cart</strong></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 panda-card-main shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+                    <img src="2.jpg" class="card-img-top aca">
+                    <div class="card-body">
+                        <h5 class="card-title">Admission_A Unit</h5>
+                        <h5>$ 665</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quisquam
+                            ipsum velit aliquid amet ipsam voluptatibus laboriosam excepturi, eligendi nihil. Eum,
+                            velit?</p>
+                    </div>
+                    <div class="card-footer panda-card">
+                        <button class="btn"><strong>Add to cart</strong></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 panda-card-main shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+                    <img src="4.jpg" class="card-img-top aca">
+                    <div class="card-body">
+                        <h5 class="card-title">Admission_Engineering</h5>
+                        <h5>$ 420</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eaque,
+                            ipsum placeat recusandae veritatis eligendi assumenda.</p>
+                    </div>
+                    <div class="card-footer panda-card">
+                        <button class="btn  "><strong>Add to cart</strong></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+
+<!-- Design section -->
+
+
+
+
+    <section id="Design" class="container mt-5">
+        <h2 style="font-size: 40px;"> <strong>Design</strong></h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4 ">
+            <div class="col">
+                <div class="card h-100 panda-card-main shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+                    <img src="blender-2.png" class="card-img-top aca">
+                    <div class="card-body">
+                        <h5 class="card-title">3D Blender</h5>
+                        <h5>$ 180</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, aliquid
+                            culpa impedit porro magnam accusantium maxime nostrum?</p>
+                    </div>
+                    <div class="card-footer panda-card">
+                        <button class="btn"><strong>Add to cart</strong></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 panda-card-main shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+                    <img src="How-to-Become-a-UIUX-Designer.png" class="card-img-top aca">
+                    <div class="card-body">
+                        <h5 class="card-title">UI/UX Design </h5>
+                        <h5>$ 220</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quisquam
+                            ipsum velit aliquid amet ipsam voluptatibus laboriosam excepturi, eligendi nihil. Eum,
+                            velit?</p>
+                    </div>
+                    <div class="card-footer panda-card">
+                        <button class="btn"><strong>Add to cart</strong></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 panda-card-main shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+                    <img src="photoshop.jpg" class="card-img-top aca">
+                    <div class="card-body">
+                        <h5 class="card-title">Photoshop with AI </h5>
+                        <h5>$ 360</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eaque,
+                            ipsum placeat recusandae veritatis eligendi assumenda.</p>
+                    </div>
+                    <div class="card-footer panda-card">
+                        <button class="btn  "><strong>Add to cart</strong></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+<!-- Development Sction -->
+
+
+    <section id="Dev" class="container mt-5">
+        <h2 style="font-size: 40px;"> <strong>Development</strong></h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4 ">
+            <div class="col">
+                <div class="card h-100 panda-card-main shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+                    <img src="web3.jpg" class="card-img-top aca">
+                    <div class="card-body">
+                        <h5 class="card-title">Node JS</h5>
+                        <h5>$ 180</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, aliquid
+                            culpa impedit porro magnam accusantium maxime nostrum?</p>
+                    </div>
+                    <div class="card-footer panda-card">
+                        <button class="btn"><strong>Add to cart</strong></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 panda-card-main shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+                    <img src="web-2.webp" class="card-img-top aca">
+                    <div class="card-body">
+                        <h5 class="card-title">Skill Dev </h5>
+                        <h5>$ 220</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quisquam
+                            ipsum velit aliquid amet ipsam voluptatibus laboriosam excepturi, eligendi nihil. Eum,
+                            velit?</p>
+                    </div>
+                    <div class="card-footer panda-card">
+                        <button class="btn"><strong>Add to cart</strong></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 panda-card-main shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+                    <img src="web.png" class="card-img-top aca">
+                    <div class="card-body">
+                        <h5 class="card-title">Web Dev </h5>
+                        <h5>$ 360</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eaque,
+                            ipsum placeat recusandae veritatis eligendi assumenda.</p>
+                    </div>
+                    <div class="card-footer panda-card">
+                        <button class="btn  "><strong>Add to cart</strong></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+<!-- Footer section -->
+
+
+
+    <section  id="Sub" style="height: 500px; background-color:#7dc06a; margin-top: 100px;"
+        class=" d-flex align-items-md-center  justify-content-center container">
+        <div>
+            <h1 style="color: white;">Let's Keep in Touch</h1>
+            <h6>Lorem ipsum dolor sit amet consectetur adipisicing.</h6>
+            <input type="text" placeholder="Enter mail here ">
+            <button class="btn" style="background-color:#285a84;">Submit</button>
+        </div>
+
+    </section>
+
+
+    <footer class="text-center mt-2 ">
+        <small>© 2023 Younus Ak. All rights reserved.</small>
+    </footer>
+
+
+
+
+
+
+
+
+
+    <!-- Offline source of Bootstrap (JAVA)  -->
+    <script src="bootstrap.min.js"></script>
+    <!-- online source of Bootstrap (JAVA)-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

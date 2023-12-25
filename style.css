@@ -1,0 +1,89 @@
+body{
+    font-family: 'Rubik', sans-serif;
+     background-color: rgb(233, 255, 246);
+}
+
+
+.panda-card{
+border: 0;
+background-color: white;
+}
+.panda-card-main{
+    border: 0;
+}
+
+.catagories img{
+height: 40%;
+width: 40%;
+    
+}
+
+/* .slider{
+
+} */
+
+
+.twinkle{
+    width: 100%;
+    height: 100px;
+}
+
+h1{
+    color: #7dc06a;
+}
+
+span{
+   color:   #285a84 ; 
+   font-size: 80px;
+
+}
+
+
+.btn{
+
+    background-color:#7dc06a  ;
+    color: white;
+}
+
+
+.pop:hover{
+    transition: 0.5s;
+    background-color:#7dc06a;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 6px;
+}
+
+
+.up:hover{
+
+    transition: ease-out;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+h2{
+    color: #285a84;
+}
+
+.react{
+    height: 400px;
+    width: 100%;
+}
+
+
+.aca{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
+
+
+    
+
+  /* 
+  
+  #285a84 
+  #85c872
+  
+  */
